@@ -29,10 +29,10 @@ public class CuratorMain {
         }
         
         executor.shutdown();
-        latch.await();
+        latch.await(); // waits for threads to finish processing
         CloseableUtils.closeQuietly(client);
         
-        System.out.println("Fucking finished!");
+        System.out.println("finished!");
     }
 
 }

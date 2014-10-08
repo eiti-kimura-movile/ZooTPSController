@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/zookeeper-3.4.6.jar" sourcepath="lib/zookeeper-3.4.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Zoo/lib/zookeeper-3.4.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/curator-client-2.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/curator-framework-2.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="lib/curator-recipes-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
